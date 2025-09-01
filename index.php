@@ -17,7 +17,7 @@ echo $autorIsaacSurci->getInfo();
 $autorLuisChura = new Autor('Luis Chura', 'Boliviano');
 echo $autorLuisChura->getInfo();
 
-$ImprimirAutor = new ImprimirAutor();
+$imprimirAutor = new ImprimirAutor();
 echo $ImprimirAutor->getInfo($autorElenaWhite);
 
 $revistaSpiderMan = new Revista('The Amazing Spider-Man', 2007, $autorCesarCondori, 'Anual');
