@@ -16,7 +16,7 @@ class Autor {
         return $this->nacionalidad;
     }
 
-    public function setNombre($nombre): void {
+    public function setNombre(string $nombre): void {
         $this->nombre = $nombre;
     }
 
